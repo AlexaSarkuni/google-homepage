@@ -37,3 +37,31 @@
 .btn:hover {
     box-shadow: 0px 0px 2px gray;
 }
+
+nav {
+    position: fixed;
+    top: 0;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #5F6368;
+    padding: 8px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+li {
+    padding: 10px;
+    float: left;
+}
+
+.rightli {
+    float: inline-end;
+}
